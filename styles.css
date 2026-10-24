@@ -1,0 +1,1015 @@
+
+
+   nav
+   {background-color: hsl(40, 18%, 93%);
+   color: rgb(36, 140, 214);}
+.div
+
+{text-align:centre;
+ ;      }
+h2{font-style: normal;}
+   p
+   {font-style: normal;}
+    nav {
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+body{
+   background-color: lightgray;
+  
+}
+   
+
+  h2
+  {text-align:centre;}    
+  p{text-align: center;}
+ .list
+ {
+   text-align: center;
+ }
+ button
+ {
+    margin: 20px auto;
+ background-color: rgb(60, 194, 238);
+border-radius: 10%;
+display: block;
+}
+  h4{text-align: center;}
+ 
+  p{text-align: center;}
+  option{text-align: center;}
+  .left-content{
+   text-align: center;
+  }
+  .centre
+  {text-align: center;}
+ 
+ 
+  .box
+  {
+   color: rgb(7, 1, 1);
+   text-align: center;
+  }
+  .day
+  {
+   color:black;
+  }
+  .box img
+  {height: 160px;
+   width: 160px;
+   border-radius: 50%;
+  
+
+  }
+  .Event
+  {
+   text-align: center;
+  }
+footer {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 10px;
+}
+.chat-button {
+  position: fixed;
+  left: 25px;
+  bottom: 25px;
+
+  width: 60px;
+  height: 60px;
+
+  background: #2563eb;
+  color: white;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 28px;
+  cursor: pointer;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,.25);
+}
+
+.chat-box {
+  position: fixed;
+  left: 25px;
+  bottom: 95px;
+
+  width: 350px;
+  height: 500px;
+
+  background: white;
+  border-radius: 15px;
+
+  box-shadow: 0 10px 40px rgba(0,0,0,.2);
+
+  display: none;
+  flex-direction: column;
+
+  overflow: hidden;
+  font-family: Arial;
+}
+
+.chat-header {
+  background: #2563eb;
+  color: white;
+
+  padding: 18px;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-weight: bold;
+}
+
+.chat-header button {
+  background: none;
+  border: none;
+  color: white;
+
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 15px;
+
+  overflow-y: auto;
+
+  background: #f8fafc;
+}
+
+.bot-message,
+.user-message {
+  padding: 10px 14px;
+  margin-bottom: 10px;
+
+  border-radius: 12px;
+
+  max-width: 80%;
+}
+
+    
+.bot-message {
+    background: #e2e8f0;
+    white-space: pre-line;
+    line-height: 1.6;
+}
+
+
+
+.user-message {
+  background: #2563eb;
+  color: white;
+
+  margin-left: auto;
+}
+
+.quick-buttons {
+  padding: 8px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  border-top: 1px solid #ddd;
+}
+
+.quick-buttons button {
+  padding: 6px 9px;
+
+  border: 1px solid #2563eb;
+  border-radius: 15px;
+
+  background: white;
+  color: #2563eb;
+
+  cursor: pointer;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+
+  border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+  flex: 1;
+
+  padding: 10px 15px;
+
+  border: 1px solid #ddd;
+  border-radius: 20px;
+
+  outline: none;
+}
+
+.chat-input button {
+  margin-left: 8px;
+
+  width: 42px;
+  height: 42px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #2563eb;
+  color: white;
+
+  cursor: pointer;
+}
+.countdown
+{
+text-align: center;
+color: black;
+font-style: oblique;
+font-weight: bold;
+}
+body
+{
+  background:#ffffff; 
+  color:#222;
+  transition: 0.3s;
+}
+body.dark
+{
+background:#121212;
+color: #ffffff ;
+}
+.card
+{
+ background: #f5f5f5;
+    color: #222;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+body.dark .card {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+#themeToggle {
+    padding:0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    height: 38px;
+    width:38px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+    
+    
+    
+:root {
+    --text-color:#121212;
+    --bg-color:#ffffff ;
+}
+body{
+  background-color: white;
+  color: #121212;
+}
+
+body.dark
+{
+background:#121212;
+color:white ;
+}
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark p,
+body.dark span,
+body.dark a,
+body.dark.nav,
+body.dark.themeToggle,
+body.dark label {
+    color: white;
+}
+
+body.dark nav {
+    background-color: #222;
+}
+
+body.dark nav a {
+    color: white;
+}
+body.dark .countdown {
+    color: white;
+}
+
+body.dark .countdown span {
+    color: white;
+}
+
+body.dark .countdown small {
+    color: white;
+}
+
+/* Responsiveness */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Images never go outside their container */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =====================================================
+   MAIN BOX
+   ===================================================== */
+
+.box {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+
+/* =====================================================
+   LOGO
+   ===================================================== */
+
+.box img {
+    width: 180px;
+    max-width: 80%;
+    height: auto;
+}
+
+
+/* =====================================================
+   MAIN HEADING
+   ===================================================== */
+
+.box h1 {
+    font-size: clamp(24px, 4vw, 40px);
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+
+/* Event Management heading */
+
+.event h2 {
+    font-size: clamp(22px, 4vw, 36px);
+}
+
+
+/* =====================================================
+   NAVIGATION
+   ===================================================== */
+
+nav {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    gap: 15px;
+
+    margin: 20px auto;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+
+    /* Prevent very long text from breaking layout */
+    max-width: 100%;
+}
+
+
+/* =====================================================
+   ATTENTION SECTION
+   ===================================================== */
+
+.centre {
+    width: 100%;
+    text-align: center;
+}
+
+.centre h2 {
+    font-size: clamp(22px, 4vw, 35px);
+}
+
+
+/* =====================================================
+   PARAGRAPHS
+   ===================================================== */
+
+p {
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: 1.6;
+}
+
+
+/* =====================================================
+   COUNTDOWN
+   ===================================================== */
+
+.countdown {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    margin: 25px auto;
+}
+
+
+/* Each time section */
+
+.countdown > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+
+/* Number */
+
+.countdown span {
+    font-size: clamp(20px, 4vw, 35px);
+    font-weight: bold;
+
+    display: inline-block;
+
+    min-width: 50px;
+}
+
+
+/* Days / Hours / Minutes / Seconds */
+
+.countdown small {
+    font-size: clamp(12px, 2vw, 17px);
+}
+
+
+/* =====================================================
+   EVENTS LINK
+   ===================================================== */
+
+.list {
+    width: 100%;
+    text-align: center;
+
+    margin: 15px auto;
+}
+
+.list a {
+    font-size: clamp(16px, 2vw, 22px);
+}
+
+
+/* =====================================================
+   REGISTER BUTTON
+   ===================================================== */
+
+button {
+    max-width: 100%;
+}
+
+body > button {
+    cursor: pointer;
+}
+
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+
+footer {
+    width: 100%;
+    text-align: center;
+
+    padding: 20px 10px;
+
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: clamp(12px, 1.5vw, 16px);
+}
+
+
+/* =====================================================
+   CHAT BUTTON
+   ===================================================== */
+
+.chat-button {
+    position: fixed;
+
+    right: 25px;
+    bottom: 25px;
+
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    z-index: 999;
+}
+
+
+/* =====================================================
+   CHAT BOX
+   ===================================================== */
+
+.chat-box {
+    position: fixed;
+
+    right: 25px;
+    bottom: 90px;
+
+    width: 350px;
+    max-width: calc(100% - 40px);
+
+    max-height: 80vh;
+
+    overflow: hidden;
+
+    z-index: 998;
+}
+
+
+/* Chat header */
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px;
+}
+
+
+/* Chat messages */
+
+.chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+
+    padding: 10px;
+}
+
+
+/* Quick buttons */
+
+.quick-buttons {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 5px;
+
+    padding: 8px;
+}
+
+.quick-buttons button {
+    flex: 1 1 45%;
+}
+
+
+/* Chat input */
+
+.chat-input {
+    display: flex;
+
+    width: 100%;
+}
+
+.chat-input input {
+    flex: 1;
+
+    min-width: 0;
+
+    padding: 10px;
+}
+
+.chat-input button {
+    flex: 0 0 auto;
+}
+
+
+/* =====================================================
+   LARGE MONITOR
+   1201px AND ABOVE
+   ===================================================== */
+
+@media screen and (min-width: 1201px) {
+
+    .box {
+        width: 90%;
+        max-width: 1400px;
+
+        padding: 40px;
+    }
+
+    .box img {
+        width: 200px;
+    }
+
+    nav {
+        gap: 25px;
+    }
+
+    .countdown {
+        gap: 25px;
+    }
+
+    .chat-box {
+        width: 380px;
+    }
+}
+
+
+/* =====================================================
+   DESKTOP / NORMAL MONITOR
+   1025px - 1200px
+   ===================================================== */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .box {
+        width: 90%;
+        max-width: 1050px;
+
+        padding: 30px;
+    }
+
+    .box img {
+        width: 180px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    .countdown {
+        gap: 20px;
+    }
+}
+
+
+/* =====================================================
+   LAPTOP
+   769px - 1024px
+   ===================================================== */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .box {
+        width: 92%;
+        max-width: 950px;
+
+        padding: 25px;
+    }
+
+    .box img {
+        width: 160px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    nav a {
+        padding: 8px 10px;
+    }
+
+    .countdown {
+        gap: 15px;
+    }
+
+    .chat-box {
+        width: 330px;
+    }
+}
+
+
+/* =====================================================
+   TABLET
+   481px - 768px
+   ===================================================== */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .box {
+        width: 92%;
+
+        padding: 20px;
+
+        margin: 20px auto;
+    }
+
+    .box img {
+        width: 150px;
+    }
+
+    .box h1 {
+        font-size: 35px;
+    }
+
+    .event h2 {
+        font-size: 28px;
+    }
+
+    nav {
+        gap: 8px;
+    }
+
+    nav a {
+        padding: 8px 10px;
+    }
+
+    .countdown {
+        gap: 12px;
+    }
+
+    .countdown > div {
+        gap: 7px;
+    }
+
+    .countdown span {
+        min-width: 55px;
+    }
+
+    .chat-button {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .chat-box {
+        right: 20px;
+        bottom: 85px;
+
+        width: 350px;
+        max-width: calc(100% - 40px);
+    }
+}
+
+
+/* =====================================================
+   MOBILE
+   0px - 480px
+   ===================================================== */
+
+@media screen and (max-width: 480px) {
+
+    /* Main box */
+
+    .box {
+        width: 94%;
+
+        padding: 15px;
+
+        margin: 15px auto;
+    }
+
+
+    /* Logo */
+
+    .box img {
+        width: 130px;
+        max-width: 70%;
+    }
+
+
+    /* Main heading */
+
+    .box h1 {
+        font-size: 26px;
+
+        line-height: 1.3;
+    }
+
+
+    /* Event heading */
+
+    .event h2 {
+        font-size: 21px;
+    }
+
+
+    /* Navigation */
+
+    nav {
+        flex-direction: column;
+
+        width: 100%;
+
+        gap: 5px;
+    }
+
+    nav a {
+        width: 100%;
+
+        text-align: center;
+
+        padding: 9px;
+    }
+
+
+    /* Attention */
+
+    .centre h2 {
+        font-size: 22px;
+    }
+
+
+    /* Countdown */
+
+    .countdown {
+        gap: 6px;
+
+        width: 100%;
+    }
+
+    .countdown > div {
+        gap: 5px;
+    }
+
+    .countdown span {
+        min-width: 45px;
+
+        font-size: 25px;
+    }
+
+    .countdown small {
+        font-size: 11px;
+    }
+
+
+    /* Event link */
+
+    .list a {
+        font-size: 18px;
+    }
+
+
+    /* Register button */
+
+    .box button {
+        max-width: 100%;
+
+        padding: 10px 20px;
+    }
+
+
+    /* Footer */
+
+    footer {
+        padding: 15px 5px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+
+    /* Chat button */
+
+    .chat-button {
+        width: 50px;
+        height: 50px;
+
+        right: 15px;
+        bottom: 15px;
+    }
+
+
+    /* Chat box */
+
+    .chat-box {
+        width: calc(100% - 30px);
+
+        max-width: none;
+
+        right: 15px;
+        bottom: 75px;
+    }
+
+
+    /* Chat messages */
+
+    .chat-messages {
+        max-height: 220px;
+    }
+
+
+    /* Quick buttons */
+
+    .quick-buttons button {
+        flex: 1 1 100%;
+    }
+
+
+    /* Chat input */
+
+    .chat-input input {
+        width: 100%;
+        min-width: 0;
+    }
+}
+   
+/* Dark mode chatbot fix */
+
+body.dark .chat-box {
+    background: #1e1e1e;
+    color: white;
+}
+
+body.dark .chat-messages {
+    background: #121212;
+}
+
+body.dark .bot-message {
+    background: #2d2d2d;
+    color: white;
+    white-space: pre-line;
+    line-height: 1.6;
+}
+
+body.dark .user-message {
+    background: #2563eb;
+    color: white;
+}
+
+body.dark .chat-input input {
+    background: #2d2d2d;
+    color: white;
+    border: 1px solid #555;
+}
+
+body.dark .chat-input input::placeholder {
+    color: #ccc;
+}
+
+body.dark .quick-buttons {
+    background: #1e1e1e;
+    border-top-color: #444;
+}
+
+body.dark .quick-buttons button {
+    background: #2d2d2d;
+    color: white;
+    border-color: #60a5fa;
+}
+ 
+
+
+
+
+
+

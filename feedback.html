@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title> Feedback page</title>
+    </head>
+    <link rel="stylesheet" href="feedback.css">
+    
+    <body>
+                 <button id="themeToggle">&#127769;</button>
+
+        <form onsubmit="showPopup(); return false;">
+       
+        <div class="feedback-box">
+            <h1>Event Feedback</h1>
+            <p>How was the experience of the event?</p>
+             <p id="rating">Select a rating</p>
+            <div class="stars">
+                <span onclick="rate(1)">⭐</span>
+                <span onclick="rate(2)">⭐</span>
+                <span onclick="rate(3)">⭐</span>
+                <span onclick="rate(4)">⭐</span>
+                <span onclick="rate(5)">⭐</span>
+                </div><br>
+              
+                Your Feedback:<input type="textarea" textarea id="feedback" placeholder="Tell us about your experience.."></textarea><br><br>
+<button type="submit">Submit Feedback</button>
+</div>
+</form>
+
+
+         <script>
+        function showPopup() {
+            alert("Your feedback is submitted successfully!");
+        }
+    </script>
+    <footer>
+    <p>&copy; 2026Eventhub. All Rights Reserved.</p>
+</footer>
+<script src="feedback.js"></script>
+<script src="mode.js"></script>
+    </body>
+</html>

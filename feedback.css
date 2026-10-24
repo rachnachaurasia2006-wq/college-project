@@ -1,0 +1,87 @@
+
+
+
+button{
+    background-color: aqua;
+    color: black;
+    border-radius: 10%;
+}
+
+ body
+{
+text-align: center;
+  background:#ffffff; 
+  color:#222;
+  transition: 0.3s;
+}
+body.dark
+{
+background:#121212;
+color: #ffffff ;
+}
+.card
+{
+ background: #f5f5f5;
+    color: #222;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+body.dark .card {
+    background: #121212;
+    color:#ffffff;
+}
+#themeToggle {
+    padding:0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    height: 38px;
+    width:38px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+    
+    
+    
+:root {
+    --text-color:#121212;
+    --bg-color:#ffffff ;
+}
+body{
+  background-color: white;
+  color: #121212;
+}
+
+body.dark
+{
+    background: #121212;
+    color:#ffffff ;
+    --footer-bg: #1e1e1e;
+    --input-bg: #2a2a2a;
+    --input-text: white;
+}
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark p,
+body.dark span,
+body.dark a,
+body.dark.nav,
+body.dark.themeToggle,
+body.dark footer,
+body.dark label{
+    color: #ffffff;;
+}
+
+
+

@@ -1,0 +1,113 @@
+<html>
+    <head>
+          <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+         <link rel="stylesheet" href="styles.css">
+    
+        <title> Event Management </title>  
+
+    </head>
+    <body>
+      <button id="themeToggle">&#127769;</button>
+    <div class="box">
+            <img src="logo.png">
+            <h1>Shree Swaminarayan Institute Of Technology</h1></div>
+   <div class="event"><h2> Event Management</h2></div>
+        <nav>
+            <a href="contact no.html">Contact no.</a>
+            <a href="Help.html">Help</a>
+            <a href="About.html ">About</a>
+            <a href="our team.html">Our Team</a>
+             <a href="feedback.html">Feedback</a>
+             </nav>
+            <div class="centre">
+<h2> Attention Everyone</h2>
+</div>
+    
+<p> We are announcing a event organized by our institute for you guys</p>
+<p>Events start's in just..</p>
+<div class="countdown">
+    <div>
+        <span id="days">5</span>
+        <small>Days</small>
+     
+
+    
+        <span id="hours">11</span>
+        <small>Hours</small>
+    
+
+  
+        <span id="minutes">1</span>
+        <small>Minutes</small>
+    
+
+    
+        <span id="seconds">0</span>
+        <small>Seconds</small>
+    </div>
+    </div>
+<p><h4>For see the events click here..&#128071;</h4> </p>
+<div class="list">
+<a href="Events.html">Events</a><br>
+
+</div>
+</div>
+<p> If you are interested any one of this please register here</p>
+
+<button type="Register" value="Register" onclick="window.location.href='Registration.html';">Register</button>
+
+<footer>
+  <p> &copy;             2026 Eventhub.                         All Rights Reserved.</p>
+</footer>
+<div class="chat-button" onclick="toggleChat()">💬</div>
+
+<div class="chat-box" id="chatBox">
+
+  <div class="chat-header">
+    🤖 Event Assistant
+    <button onclick="toggleChat()">×</button>
+  </div>
+
+  <div class="chat-messages" id="messages">
+    <div class="bot-message">
+      Hi! 👋 Ask me about the event, tickets, venue, timing, or schedule.
+    </div>
+  </div>
+
+  <div class="quick-buttons">
+    <button onclick="askQuestion('Where is the event?')">
+      📍 Venue
+    </button>
+
+    <button onclick="askQuestion('What time does the event start?')">
+      🕐 Timing
+    </button>
+
+    <button onclick="askQuestion('How much is the ticket?')">
+      🎟️ Tickets
+    </button>
+
+    <button onclick="askQuestion('What is the schedule?')">
+      📅 Schedule
+    </button>
+  </div>
+
+  <div class="chat-input">
+    <input
+      id="messageInput"
+      placeholder="Ask something..."
+      onkeydown="handleEnter(event)"
+    />
+
+    <button onclick="sendMessage()">➤</button>
+  </div>
+
+</div>
+
+    <script src="script.js"></script>
+     <script src="event.js"></script>
+     <script src="mode.js"></script>
+    </body>
+    </html>

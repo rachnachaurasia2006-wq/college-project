@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title> Registration Page</title>
+    </head>
+    <link rel="stylesheet" href="Registration.css">
+    <body>
+     <button id="themeToggle">&#127769;</button>
+     <div class="registration-container">
+    <div class="registration-box">
+
+<form action="registration.php" method="POST" onsubmit="showPopup()">
+
+        <h1>Registration</h1>
+      Name: <input type="text" name="fullname"><br><br>
+       Email: <input type="email"  name="email" placeholder="required"><br><br>
+      Mobile: <input type="tel" name="mobile" placeholder="required" max="10"><br><br>
+        <b><h2>Event</h2></b>
+        <input type="radio" value="Teachers day" name="event">Teachers day<br><br>
+        <input type="radio" value="Engineers day" name="event">Engineers day<br><br>
+        <input type="radio" value="Hackathon" name="event">Hackathon<br><br>
+        <input type="radio" value="Navratri" name="event">Navratri<br><br>
+        <input type="radio" value="Sports" name="event">Sports<br><br>
+        <input type="radio" value="Robo akhada" name="event">Robo akhada<br><br>
+         <b><h2>Branch</h2></b>
+       <input type="radio" value="BCA" name="branch">BCA<br><br>
+      <input type="radio" value="IT" name="branch"> IT<br><br>
+       <input type="radio" value="CS" name="branch">CS<br><br>
+      <input type="radio" value="Engineering" name="branch">Engineering<br><br>
+      <button type="submit" value="submit" >Submit</button>
+       </form>
+         <script>
+        function showPopup() {
+            alert("Your event registration is submitted successfully!");
+        }
+    </script>
+    <footer>
+    <p>&copy; 2026Eventhub. All Rights Reserved.</p>
+</footer>
+<script src="mode.js"></script>
+</div>
+</div>
+         </body>
+</html>

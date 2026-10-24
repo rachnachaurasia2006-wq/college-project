@@ -1,0 +1,121 @@
+body
+{
+    background-color: lightgray;
+    align-content: center;
+    text-align: center;
+}
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.registration-box {
+    width: 100%;
+    max-width: 550px;
+    padding: 35px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+button
+{
+    background-color: rgb(60, 194, 238);
+    text-align: center;
+    border-radius: 10%;
+}
+h1
+{
+    text-align: center;
+}
+footer
+{
+    
+   position:fixed;
+   text-align: center;
+   letter-spacing: normal;
+   left: 0%;
+   width:100%;
+   bottom: 0%;
+   margin-top:auto ;
+}
+ body
+{
+  background:#ffffff; 
+  color:#222;
+  transition: 0.3s;
+}
+body.dark
+{
+background:#121212;
+color: #ffffff ;
+}
+.card
+{
+ background: #f5f5f5;
+    color: #222;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+body.dark .card {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+#themeToggle {
+    padding:0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    height: 38px;
+    width:38px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+    
+    
+    
+:root {
+    --text-color:#121212;
+    --bg-color:#ffffff ;
+}
+body{
+  background-color: white;
+  color: #121212;
+}
+
+body.dark
+{
+background:#121212;
+color:white ;
+}
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark p,
+body.dark span,
+body.dark a,
+body.dark.nav,
+body.dark.themeToggle,
+body.dark label {
+    color: white;
+}
+body.dark .registration-container {
+    background: #121212;
+}
+
+body.dark .registration-box {
+    background: #1e1e1e;
+    color: #fff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
