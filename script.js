@@ -59,11 +59,10 @@ function toggleChat() {
 
 
 function handleEnter(event) {
-
   if (event.key === "Enter") {
+    event.preventDefault();
     sendMessage();
   }
-
 }
 
 
@@ -73,31 +72,35 @@ function askQuestion(question) {
 
   sendMessage();
 }
-
-
 function sendMessage() {
+  const input = document.getElementById("messageInput");
+  const messages = document.getElementById("messages");
 
-  const input =
-    document.getElementById("messageInput");
+  if (!input || !messages) {
+    console.error("Chatbot input or message area was not found.");
+    return;
+  }
 
-  const question =
-    input.value.trim().toLowerCase();
+  const originalQuestion = input.value.trim();
 
-  if (!question) return;
+  if (!originalQuestion) return;
 
-  addMessage(input.value, "user");
+  addMessage(originalQuestion, "user");
 
   input.value = "";
 
-  const answer = getAnswer(question);
+  try {
+    const answer = getAnswer(originalQuestion.toLowerCase());
 
-  setTimeout(() => {
-
-    addMessage(answer, "bot");
-
-  }, 400);
-
+    setTimeout(() => {
+      addMessage(answer, "bot");
+    }, 400);
+  } catch (error) {
+    console.error("Chatbot error:", error);
+    addMessage("Sorry, something went wrong. Please try again.", "bot");
+  }
 }
+
 
 
 function getAnswer(question) {
@@ -203,3 +206,24 @@ function addMessage(text, sender) {
   messages.scrollTop =
     messages.scrollHeight;
 }
+document.addEventListener("DOMContentLoaded", function () {
+const input = document.getElementById("messageInput");
+const sendButton = document.getElementById("sendButton");
+
+if (!input || !sendButton) {
+console.error("Chatbot input or Send button not found.");
+return;
+}
+
+sendButton.addEventListener("click", function (event) {
+event.preventDefault();
+sendMessage();
+});
+
+input.addEventListener("keydown", function (event) {
+if (event.key === "Enter") {
+event.preventDefault();
+sendMessage();
+}
+});
+});
